@@ -1,0 +1,153 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 200%;
+}
+
+h1 {
+  color: #FF9494;
+  font-size: 6rem;
+  margin-top: 50PX AUTO 0 AUTO;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #FF9494;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #FFD1D1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  line-height: 2;
+}
+
+hr {
+border: dotted #FFF5E4 6px;
+border-bottom: none;
+width: 4%;
+margin: 100px auto;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+/***************CLASS*****************/
+
+.top-container {
+  background-color: #FFF5E4;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #FFD1D1;
+  padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+
+.web-dev {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.soc-med {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.graphic-design {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.btn {
+  background: #e298e6;
+  background-image: -webkit-linear-gradient(top, #e298e6, #db77c0);
+  background-image: -moz-linear-gradient(top, #e298e6, #db77c0);
+  background-image: -ms-linear-gradient(top, #e298e6, #db77c0);
+  background-image: -o-linear-gradient(top, #e298e6, #db77c0);
+  background-image: linear-gradient(to bottom, #e298e6, #db77c0);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 31px;
+  padding: 30px 30px 30px 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #eaa3f0;
+  background-image: -webkit-linear-gradient(top, #eaa3f0, #e0b8e0);
+  background-image: -moz-linear-gradient(top, #eaa3f0, #e0b8e0);
+  background-image: -ms-linear-gradient(top, #eaa3f0, #e0b8e0);
+  background-image: -o-linear-gradient(top, #eaa3f0, #e0b8e0);
+  background-image: linear-gradient(to bottom, #eaa3f0, #e0b8e0);
+  text-decoration: none;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.footer-link {
+  color: #FF9494;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
